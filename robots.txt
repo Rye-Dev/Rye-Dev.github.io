@@ -1,7 +1,9 @@
-User - agent: GPTBot
-Disallow : /
-
 User-agent: *
 Allow /
 Crawl - delay : 15
+
+User - agent: GPTBot
+Disallow : /
+
+
 
