@@ -2,7 +2,7 @@ user-agent: *
 allow: /
 crawl-delay : 15
 
-user-agent: GPTBot
+user-agent: magicsearchbot
 disallow : /
 
 
