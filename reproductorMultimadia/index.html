@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="scripts.js"></script>
+</head>
+<body>
+    <header>
+        <h1 class="centrado">Reproductor Multimedia</h1>
+    </header>
+    <main>
+        <div class="video">
+            <video src="video.mp4"></video>
+            <div class="controls">
+                <div class="botones play"><img src="icons/play-solid.png"></div>
+                <div class="botones moreVolume"><img src="icons/volumen.png"></div>
+                <div class="botones lessVolume"> <img src="icons/silencio.png"></div>
+                <label>speed</label>
+                <select class="speed">
+                    
+                    <option value="1">1.0</option>
+                    <option value="2">2.0</option>
+                    <option value="3">3.0</option>
+                </select>
+                <div class="botones fullscreen">fullscreen</div>
+                <div class="botones bucle"><img src="icons/repeticion.png"></div>
+                <div class="botones backwards"><img src="icons/rotate-left-solid.png"></div>
+                <div class="botones forward"><img src="icons/rotate-right-solid.png"></div>
+            </div>
+        </div>
+
+    </main>
+    <footer>
+        <div class="banner">
+            <p>Todos los derechos reservados &copy; - Alejandro del Salto Freelancer</p>
+        </div>
+    </footer>
+    <div id="cookie-banner" class="cookie-banner">
+        <p>Este sitio web utiliza cookies para mejorar la experiencia del usuario. Al continuar utilizando este sitio, acepta nuestro uso de cookies.</p>
+        <button id="accept-cookies">Aceptar cookies</button>
+        <button id="manage-cookies">Administrar cookies</button>
+    </div>
+</body>
+</html>

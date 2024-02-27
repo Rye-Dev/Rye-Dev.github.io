@@ -1,0 +1,154 @@
+  @import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,700;1,400&display=swap');
+:root {
+    --fuentePrincipal:'Poppins', sans-serif;
+}
+ /* Globales */
+html {
+    box-sizing: border-box;
+    font-size: 62.5%;
+    font-family: var(--fuentePrincipal);
+}
+
+*, *:before, *:after {
+    box-sizing: inherit;
+    margin: 0;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+h2 {
+    font-size: 2.4rem;
+}
+p {
+    font-size: 1.7rem;
+}
+
+/* Utilidad */
+.centrado {
+    text-align: center;
+}
+
+body {
+    background-color: #ebebeb;
+}
+
+header {
+    background-color: #d7c5f3; 
+    height: 10rem;
+    margin-bottom: 2rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+header h1 {
+    font-weight: 700;
+}
+
+.video {
+    margin: 0 auto;
+    max-width: 47vw;
+    max-height: 47vw;
+}
+
+video {
+    width: 100%;
+    height: 100%;
+    border-radius: 2rem;
+    border: 2px solid #ccc; 
+}
+
+.promocion {
+    margin: 2rem auto;
+    background-color: #e0e0e0; 
+    max-width: 70rem;
+    border-radius: 2rem;
+    padding: 2rem;
+}
+
+ul li {
+    font-size: 1.4rem;
+    line-height: 3rem;
+}
+
+ul {
+    list-style-type: none;
+}
+
+.botones {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    max-width: 50px;
+    max-height: 50px;
+    transition: transform 0.2s ease; /* Transición suave */
+}
+
+
+
+.botones:active {
+    transform: scale(0.8); /* Reducir el tamaño cuando se hace clic */
+}
+
+.compra {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+button {
+    width: 30%;
+    cursor:pointer;
+    height: 3rem;
+    border-radius: .7rem;
+    border: 1px solid #666; 
+    background-color: #ddd;
+}
+
+.controls {
+    position: relative;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    top: -60px;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.controls.active {
+    opacity: 1;
+}
+
+.botones img {
+    height: 100%;
+    width: 100%;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #333;
+    color: #d7c5f3;
+    padding: 10px 0;
+    overflow: hidden;
+    font-size: 3rem;
+}
+
+.banner {
+    animation: desplazamiento 10s linear infinite;
+    white-space: nowrap;
+}
+
+@keyframes desplazamiento {
+    0% {
+        transform: translateX(100%);
+    }
+    100% {
+        transform: translateX(-100%);
+    }
+}

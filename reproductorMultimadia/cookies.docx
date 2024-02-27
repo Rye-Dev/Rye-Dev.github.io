@@ -1,0 +1,27 @@
+1 - Tipos de cookies, diferencias legales
+
+Existen muchos tipos de cookies, entre ellas tenemos:
+Las cookies de sesión, temporales y que se eliminan al cerrar el navegador
+
+Cookies persistentes, las que permanecen en el dispositivo hasta expirar o ser eliminadas
+
+Y las cookies de terceros, proporcionadas por servicios externos como publicitarios
+
+2 - Obligatorias y opcionales
+
+Entre las cookies obligatorias tenemos aquellas cuya presencia es vital para mantener la seguridad o simplemente para verificar el correcto funcionamiento del sitio web, entre ellas tenemos las de login o seguridad
+Entre las opcionales tenemos todas aquellas cuya ausencia no supone ningun problema de seguridad o funcionamiento en el sitio web, cookies como estas so las de publicidad o personalizacion
+
+3 - Casillas necesarias en el aviso de cookies
+
+Se debe mostrar la información sobre las cookies que el usuario va a aceptar o denegar
+Botón para aceptar cookies
+Botón para rechazar cookies
+Botón para gestionar cookies
+
+4 - Como implementar cookies de terceros en nuestra página web
+
+Para permitir el uso de cookies de terceros en el navegador, se debe acceder en la configuración del navegador, privacidad y permitir las cookies de terceros
+
+En cuanto a nuestro propio sitio web, para implementar cookies de terceros lo más importante es tener permiso para usarlas, y tras ello, usar el script mediante una librería proporcionada por el tercero
+
